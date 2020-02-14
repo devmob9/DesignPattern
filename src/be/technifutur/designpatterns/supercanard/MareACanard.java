@@ -33,4 +33,16 @@ class MareACanard {
         });
         System.out.println("!!!");
     }
+
+    public void enVol() {
+        System.out.println("!!!");
+        this.canardList.forEach(c -> {
+            c.afficher();
+            System.out.print(": ");
+            c.voler();
+            System.out.println();
+        });
+        System.out.println("!!!");
+
+    }
 }

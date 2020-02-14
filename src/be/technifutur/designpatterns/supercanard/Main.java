@@ -20,14 +20,17 @@ class Main {
                 case "e":
                     mare.ecouter();
                     break;
+                case "v":
+                    mare.enVol();
+                    break;
             }
             choix = demanderChoix();
         }
     }
 
     private static String demanderChoix() {
-        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        System.out.print("!! Observer(o) Ecoute(e) Quitter(q): ");
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        System.out.print("!! Observer(o) Ecoute(e) Voler(v) Quitter(q): ");
 
         return new Scanner(System.in).nextLine();
     }
