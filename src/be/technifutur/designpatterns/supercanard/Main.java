@@ -2,6 +2,7 @@ package be.technifutur.designpatterns.supercanard;
 
 import be.technifutur.designpatterns.supercanard.canard.Colvert;
 import be.technifutur.designpatterns.supercanard.canard.Mandarin;
+import be.technifutur.designpatterns.supercanard.canard.PlasticCanard;
 
 import java.util.Scanner;
 
@@ -40,6 +41,7 @@ class Main {
         mare.add(new Colvert());
         mare.add(new Colvert());
         mare.add(new Mandarin());
+        mare.add(new PlasticCanard());
         return mare;
     }
 
