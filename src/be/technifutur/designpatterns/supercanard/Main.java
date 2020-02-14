@@ -1,6 +1,7 @@
 package be.technifutur.designpatterns.supercanard;
 
 import be.technifutur.designpatterns.supercanard.canard.Colvert;
+import be.technifutur.designpatterns.supercanard.canard.Leurre;
 import be.technifutur.designpatterns.supercanard.canard.Mandarin;
 import be.technifutur.designpatterns.supercanard.canard.PlasticCanard;
 
@@ -39,7 +40,7 @@ class Main {
     private static MareACanard buildMareACanard() {
         MareACanard mare = new MareACanard();
         mare.add(new Colvert());
-        mare.add(new Colvert());
+        mare.add(new Leurre());
         mare.add(new Mandarin());
         mare.add(new PlasticCanard());
         return mare;
